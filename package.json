@@ -1,6 +1,6 @@
 {
   "name": "fis3-deploy-crx",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Chrome Extension crx for fis3 deploy",
   "main": "index.js",
   "scripts": {
