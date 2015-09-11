@@ -1,0 +1,29 @@
+{
+  "name": "fis3-deploy-crx",
+  "version": "0.0.1",
+  "description": "Chrome Extension crx for fis3 deploy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/conechan/fis3-deploy-crx.git"
+  },
+  "keywords": [
+    "fis3",
+    "crx",
+    "deploy"
+  ],
+  "author": "conechan",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/conechan/fis3-deploy-crx/issues"
+  },
+  "homepage": "https://github.com/conechan/fis3-deploy-crx",
+  "dependencies": {
+    "archiver": "^0.8.0",
+    "es6-promise": "^2.0.0",
+    "node-rsa": "^0.2.10"
+  }
+}

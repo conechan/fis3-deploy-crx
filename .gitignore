@@ -1,0 +1,8 @@
+node_modules
+.idea
+dist
+release
+dev
+local
+.DS_Store
+debug
