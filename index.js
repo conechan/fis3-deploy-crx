@@ -1,4 +1,3 @@
-var path = require("path");
 var crypto = require("crypto");
 var RSA = require('node-rsa');
 var archiver = require("archiver");
@@ -248,7 +247,7 @@ module.exports = function (options, modified, total, next) {
       // 获取 codebase 路径
       var codebaseUrl = codebase || updateUrlExt.dirname;
 
-      var xmlContent = generateUpdateXML(appId, path.join(codebaseUrl, fileName + '.crx'), version);
+      var xmlContent = generateUpdateXML(appId, fis.util.pathinfo(codebaseUrl, fileName + '.crx').fullname, version);
       updateXMLFile.setContent(xmlContent);
 
       modified.push(updateXMLFile);
